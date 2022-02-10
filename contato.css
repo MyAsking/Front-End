@@ -1,0 +1,129 @@
+header{
+    background: gray;
+    padding: 20px;
+    margin: 0;
+}
+
+.caixa{
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+#logo{
+    margin-left: 13%;
+}
+
+
+
+nav{
+    position: absolute;
+    top: 125px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+main{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.formulario{
+    padding: 30px;
+    margin: 40px 0;
+}
+
+.formulario label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.contato{
+    margin: 5px;
+}
+
+.input-padrão{
+    display: block;
+    margin: 0 0 15px;
+    padding: 10px 10px;
+    width: 42%;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.formulario textarea{
+    resize: none;
+}
+
+
+.enviar{
+    width: 15%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.enviar:hover{
+    color: black;
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.thorario{
+    margin: 40px;
+    
+}
+
+.thorario thead{
+    background: rgb(61, 60, 60);
+    font-weight: bold;
+    color: white;
+}
+
+.thorario th{
+    border: solid #000 1px;
+    padding: 15px;
+}
+
+
+footer{
+    text-align: center;
+    background-image: url(imagens-produtos/bg.jpg);
+    padding: 40px;
+    margin-top: 40px;
+    
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    padding: 25px;
+}

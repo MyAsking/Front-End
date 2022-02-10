@@ -1,0 +1,198 @@
+body {
+    font-family: 'Montserrat Alternates', sem serifa;
+}
+
+/* Header */
+
+header{
+    background: gray;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.caixa{
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+#logo{
+    margin-left: 13%;
+}
+
+nav{
+    position: absolute;
+    top: 125px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Main Produtos */
+
+.items{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+
+.items li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    list-style: none;
+}
+
+.items li:hover{
+    color: orange;
+}
+
+.items li:active{
+    color: rgb(10, 0, 156);
+}
+.items h2{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.items li:hover h2{
+    font-size: 35px;
+}
+
+.items p{
+    font-size: 20px;
+    color: black;
+}
+
+.items-preco{
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+    padding: 10px 0 0;
+}
+
+
+footer {
+    text-align: center;
+    background-image: url(imagens-produtos/bg.jpg);
+    padding: 40px;
+
+    
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    padding: 25px;
+}
+
+.barber {
+    width: 100%;
+}
+
+.principal {
+    margin-left: 1em 0;
+    padding: 3em;
+    background: #fefefe;
+    width: 1240px;
+	margin: 0 auto;
+}
+
+.principal p {
+  margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.beneficios {
+    background: linear-gradient(#fefefe, #8888);
+}
+
+.beneficios li::before {
+    content: "✅";
+}
+
+.conteudo-beneficios {
+    width: 500px;
+    margin: 0 0 0 128px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-left: 200px;
+
+}
+
+.imagem-beneficios {
+    width: 940px;
+    
+}
+
+.mapa {
+    padding: 3em 0;
+    background: #8888;
+}
+
+.mapa p {
+    margin: 2em 0;
+
+}
+
+.mapa-tamanho {
+    width: 1240px;
+	margin: 0 auto;
+}
+
+.video {
+    text-align: center;
+    width: 560;
+}
